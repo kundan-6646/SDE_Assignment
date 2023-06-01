@@ -1,0 +1,42 @@
+body {
+    background-color: #E9EAEC;
+    font-family: 'Crete Round', serif;
+}
+
+
+.task-card {
+    margin: 20px 0;
+    padding: 10px 10px;
+    background-color: #2F3544;
+    color: #fff;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task-card .header {
+    width: calc(100% - 20px);
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #808080;
+    gap: 5px;
+}
+
+.header > span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #FE5F59;
+}
+
+.green {
+    background-color: #29C93E;
+}
+
+.yellow {
+    background-color: #FFBD30;
+}

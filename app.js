@@ -16,6 +16,8 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res) {
   res.render('dashboard', {outcomeResult: outcomeRes, result: expressionsResults});
+  outcomeRes = "";
+  expressionsResults = "";
 });
 
 
